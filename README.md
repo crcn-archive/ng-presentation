@@ -2,19 +2,23 @@
 
 ## topic: Understanding AngularJS internals
 
+http://slides.com/craigjefferdscondon/ng-internals
 
 - whoami
   - when did I start?
   - why do I like programming?
   - what have I done?
 
-- agenda
-  - angularJS philosophy
-  - internals & pitfalls
 
-- philosphy
-  - simplicity
-    - use POJO
+- Agenda
+  - internals - why understand your tools?
+    - avoid common pitfalls
+    - demystification
+    - how to manipulate
+
+- why ng?
+  - testability
+
 
 - digest cycle
 
@@ -23,17 +27,28 @@
     - what does it do?
     - how does it work? (dirty type checking)
     - when to use it?
-    - when not to use it?
+      - directives
+      - syncing changes in the UI
   - $scope.$watch()
   - $scope.$digest()
   - other functions
     - $scope.$http
     - $scope.$timeout
 
+## DO 
+  - exampes - analogies
+
+## Talk about
+  - $scope.$apply()
+
 ## Examples
 
 - Hello World: http://jsfiddle.net/uoo7yzvz/
-- 
+- manually updating scope without apply: http://jsfiddle.net/uoo7yzvz/5/
+- manually updating scope with apply: http://jsfiddle.net/uoo7yzvz/6/
+- click handler for incrementing count: http://jsfiddle.net/uoo7yzvz/7/
+- jquery click handler http://jsfiddle.net/b06tk4a6/
+
 
 ## Bibliography
 

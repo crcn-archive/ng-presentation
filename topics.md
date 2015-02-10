@@ -22,6 +22,10 @@ you build more scalable applications.
     - http://nathanleclaire.com/blog/2014/04/19/5-angularjs-antipatterns-and-pitfalls/
     - http://eviltrout.com/2013/06/15/ember-vs-angular.html
     - http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html
+  - testing:
+    - https://docs.angularjs.org/guide/e2e-testing
+    - https://docs.angularjs.org/guide/unit-testing
+    - https://github.com/angular/angular-seed
 
 Angular Philosophy:
 
